@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,inicial-scale=1.0">
+<title>homereturn4</title>
+<link type="text/css" href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+function menuOpen() {
+    var x = document.getElementById("mobile_menu");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+$(window).scroll(function(){
+  if ($(window).scrollTop() >= 100) {
+    $('.menu').addClass('fixed');
+   }
+   else {
+    $('.menu').removeClass('fixed');
+   }
+});
+</script>
+</head>
+
+<body>
+<div class="container">
+<div class="inner_container">
+<div class="header">
+<div class="logo">
+<img src="images/logo.png" alt="logo">
+</div>
+<input class="search" type="search" placeholder="search">
+</div>
+</div>
+<div class="clear">
+</div>
+
+<div class="menu">
+<div class="inner_container">
+<div id="menu_open" onclick="menuOpen()">Menu</div>
+<div class="menu-left" id="mobile_menu">
+<ul>
+<li><a class="active" href="#">Home</a></li>
+<li><a href="#">About us</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Clients</a></li>
+<li><a href="#">Clients</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">Enquiry</a></li>
+</ul>
+</div>
+<div class="menu-right">
+<ul>
+<li><img src="images/in.png" alt="in"></li>
+<li><img src="images/twitter.png" alt="twitter"></li>
+<li><img src="images/fb.png" alt="fb"><li>
+</ul>
+</div>
+<div class="clear">
+</div>
+</div>
+
+</div>
+
+<div class="wrapper">
+<div class="inner_container">
+<div class="banner">
+<div class="call_us">
+<p>Call us today for a Legal<br>Consultation</p>
+<a href="tel:+91-124-2572200">+91-124-2572200</a>
+<p>Head Office<br><br>
+    213, Suncity Arcade, Suncity <br>
+    Sector - 54, Gurgaon Haryana-<br>                    
+    122011</p>
+<a href="mailto:info@fin-advisors.com">info@fin-advisors.com</a> 
+</div>
+</div>
+<div class="clear">
+</div>
+</div>
+
+<div class="inner_container">
+<div class="heading_trip">
+<h2>Our firm</h2>
+<p>We are an India based firm providing services in the area of accounting, payroll, taxation, portfolio management and investment research. The Fin-advisors team comprises of highly qualified and experienced individuals capable to serve varied needs of clients to help them take critical business and<br> investment decision.</p>
+</div>
+</div>
+<div class="clear">
+</div>
+
+<div class="img-box">
+<div class="inner_container">
+<div class="debt">
+<h2>Debt Solution</h2>
+<img src="images/pen.png" alt="">
+<p>We are an India based firm providing services in<br> the area of accounting, payroll, taxation, portfolio<br> management and investment research. The Fin-<br>advisors team comprises of highly qualified and<br> experienced individuals capable to serve varied<br> needs of clients to help them take critical business<br> and investment decision.</p>
+<a class="m" href="#">More...</a>
+</div>
+
+<div class="debt">
+<h2>Debt Settlement</h2>
+<img src="images/men.png" alt="">
+<p>We are an India based firm providing services in<br> the area of accounting, payroll, taxation, portfolio<br> management and investment research. The Fin-<br>advisors team comprises of highly qualified and<br> experienced individuals capable to serve varied<br> needs of clients to help them take critical business<br> and investment decision.</p>
+<a class="m" href="#">More...</a>
+</div>
+
+<div class="debt">
+<h2>Resource</h2>
+<img src="images/data.png" alt="">
+<p>We are an India based firm providing services in<br> the area of accounting, payroll, taxation, portfolio<br> management and investment research. The Fin-<br>advisors team comprises of highly qualified and<br> experienced individuals capable to serve varied<br> needs of clients to help them take critical business<br> and investment decision.</p>
+<a class="m" href="#">More...</a>
+</div>
+</div>
+<div class="clear">
+</div>
+</div>
+
+</div>
+
+<div class="footer">
+<div class="inner_container">
+<div class="grid_section">
+<h4>NEWSLETTER</h4>
+<input class="email" type="email" placeholder="enter email here">
+<a class="unsubscribe" href="#">Unsubscribe</a>
+<a class="submit" href="#">submit</a>
+<div class="follow">
+<span>Follow us!</span>
+<a href="#"><img src="images/t.png" alt=""></a>
+<a href="#"><img src="images/f.png" alt=""></a>
+<a href="#"><img src="images/i.png" alt=""></a>
+</div>
+</div>
+
+<div class="grid_section">
+<h4>CUSTOMER LOG IN</h4>
+<input class="user_id" type="email" placeholder="enter user ID here">
+<input class="password" type="password" placeholder=".............">
+<a class="unsubscribe" href="#">forgot password?</a>
+<a class="signup" href="#">sign up</a>
+<a class="submit" href="#">log in</a>
+</div>
+
+<div class="grid_link">
+<h4>PROTECTING YOUR INFO</h4>
+<p>the latest keeping your personal info safe and secure.</p>
+<ul>
+<li>
+<a href="#">Security Alert</a>
+</li>
+<li>
+<a href="#">Avoiding Scams</a>
+</li>
+</ul>
+</div>
+
+<div class="grid_link">
+<h4>APPLY NOW</h4>
+<ul>
+<li>
+<a href="#">Car Finance</a>
+</li>
+<li>
+<a href="#">Avoiding Scams</a>
+</li>
+<li>
+<a href="#">Business loans</a>
+</li>
+<li>
+<a href="#">Home loans</a>
+</li>
+<li>
+<a href="#">Personal loans</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+<div class="clear">
+</div>
+
+<div class="copy_right">
+<div class="inner_container">
+<span>Copyright &copy; 2015 Fin-advisors.All rights reserved.</span>
+</div>
+</div>
+<div class="clear">
+</div>
+
+</div>
+
+</body>
+
+</html>
